@@ -1,0 +1,38 @@
+{
+  "author": "Dawid Wijata",
+  "classifications": [
+    "Web",
+    "ASP.NET",
+    "Microservice",
+    "Authorized"
+  ],
+  "name": "Authorized Microservice Template",
+  "description": "A solution for creating a microservice with basic set of features and authorization included",
+  "identity": "Midas.Templates.AuthorizedMicroservice",
+  "groupIdentity": "Midas.Services",
+  "shortName": "authorized-microservice",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "AuthorizedMicroservice",
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        "README.md",
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        ".vs/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        "**/.git/**",
+        "*.nuspec"
+      ]
+    }
+  ],
+  "preferNameDirectory": true
+}
