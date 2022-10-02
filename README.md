@@ -53,7 +53,7 @@ dotnet new --install .
 ```
 3. Create a project
 ```
-dotnet new base-microservice
+dotnet new authorized-microservice
 ```
 
 ### By JetBrains Rider IDE
